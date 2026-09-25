@@ -9,7 +9,21 @@ Portal estático de **Boadilla School**, una colección educativa independiente 
 - `styles.css`: sistema visual y estilos adaptables, sin dependencias.
 - `favicon.svg`: marca local del libro abierto.
 
-No hay proceso de compilación, JavaScript, cuentas, anuncios, analítica ni recursos remotos.
+La portada no tiene proceso de compilación ni JavaScript. No hay cuentas, anuncios, analítica ni recursos remotos.
+
+## Spelling: dirección estable
+
+`https://boadillaschool.github.io/spelling/` reúne las listas semanales. La carpeta `spelling/` es una **copia generada de distribución**, no una segunda fuente de la aplicación.
+
+El código, currículo, audios y pruebas se mantienen en el repositorio independiente [boadillaschool/spelling-ea-ee](https://github.com/boadillaschool/spelling-ea-ee). Para actualizar la distribución, ejecuta desde ese checkout:
+
+```sh
+node scripts/export-pages.mjs ../boadillaschool.github.io/spelling
+```
+
+Ajusta únicamente la ruta del checkout del portal. Revisa el diff, ejecuta sus pruebas, publica `main` de este portal y verifica la URL real antes de actualizar la publicación antigua. No edites los archivos generados a mano. La aplicación usa módulos JavaScript y audio locales con su propia CSP; conserva las claves de progreso por lista y no envía datos.
+
+La URL antigua `/spelling-ea-ee/` redirige a `/spelling/`, conservando los enlaces a cada fecha. Los dos paths comparten origen, por lo que el progreso permanece disponible en el mismo navegador.
 
 ## Vista local
 

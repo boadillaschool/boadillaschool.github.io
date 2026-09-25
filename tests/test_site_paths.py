@@ -21,6 +21,13 @@ class PortalLinks(HTMLParser):
 
 
 class PortableHomepageTest(unittest.TestCase):
+    def test_spelling_has_a_generic_public_path_and_a_real_export(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="/spelling/"', html)
+        self.assertNotIn('/spelling-ea-ee/', html)
+        self.assertTrue((ROOT / "spelling" / "index.html").is_file())
+        self.assertTrue((ROOT / "spelling" / "audio" / "en-gb-v1" / "people.mp3").is_file())
+
     def test_assets_and_home_stay_with_the_portal_at_root_or_subpath(self):
         parser = PortalLinks()
         parser.feed((ROOT / "index.html").read_text(encoding="utf-8"))

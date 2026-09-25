@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FBF7EE">
+  <meta name="description" content="Boadilla School: elige tu lista semanal de spelling y practica inglés con dibujos, pronunciación y escritura.">
+  <title>Boadilla School · Spelling</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://boadillaschool.github.io/spelling/">
+  <script type="module" src="site-routing.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="brand-bar">
+      <p class="lockup">
+        <svg class="lockup-mark" viewBox="0 0 32 28" width="32" height="28" aria-hidden="true" focusable="false">
+          <rect class="lockup-tab" x="21" y="1.5" width="5" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M16 8C13 5.8 8.5 5 3 5.6V22.4C8.5 21.8 13 22.6 16 24.8C19 22.6 23.5 21.8 29 22.4V5.6C23.5 5 19 5.8 16 8ZM16 8V24.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="wordmark">Boadilla School</span>
+      </p>
+      <div class="brand-actions">
+        <p class="brand-context">English · 2.º Primaria</p>
+        <button type="button" class="fullscreen-toggle" id="fullscreen-toggle" aria-label="Activar pantalla completa" aria-pressed="false" hidden>
+          <svg class="icon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false">
+            <path d="M7 3H3v4M13 3h4v4M7 17H3v-4M13 17h4v-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Pantalla completa</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="screen-head" id="screen-head">
+      <button type="button" class="back" id="back" hidden>
+        <svg class="icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false">
+          <path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Inicio</span>
+      </button>
+      <p class="eyebrow" id="eyebrow">ENGLISH · SPELLING</p>
+      <h1 id="screen-title" tabindex="-1">Elige tu lista de spelling</h1>
+      <p class="module-intro" id="module-intro">Elige una fecha para practicar sus palabras.</p>
+      <a class="list-picker" id="list-picker" href="./" hidden>Elegir otra lista</a>
+    </div>
+
+    <div class="progress-strip" id="progress-strip" hidden>
+      <label for="progress" id="progress-label">Progreso</label>
+      <progress id="progress" max="10" value="0"></progress>
+    </div>
+
+    <main id="main" class="main">
+      <p class="loading">Cargando…</p>
+    </main>
+
+    <div class="actions-area" id="dock"></div>
+
+    <div class="notices">
+      <p id="audio-note" class="note" hidden></p>
+      <p id="storage-note" class="note" hidden></p>
+      <p id="feedback" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </div>
+
+  <noscript>
+    <p class="noscript">Esta aplicación necesita JavaScript activado para funcionar. Actívalo en tu navegador y recarga la página.</p>
+  </noscript>
+</body>
+</html>
