@@ -42,86 +42,44 @@
   </header>
 
   <main id="contenido" tabindex="-1">
-    <section class="intro page-shell" aria-labelledby="intro-title">
-      <div class="intro__copy">
-        <p class="eyebrow">Recursos para aprender en familia</p>
-        <h1 id="intro-title">Aprender con calma, paso a paso.</h1>
-        <p class="intro__lede">Una colección de actividades breves y claras para que niñas y niños de 7 a 11 años practiquen en casa con autonomía y acompañamiento.</p>
-        <a class="button button--primary" href="#recursos">Ver recursos</a>
-        <p class="independence-note"><strong>Boadilla School</strong> es una iniciativa educativa independiente y familiar. No es un centro escolar ni está vinculada a ninguno.</p>
-      </div>
-
-      <aside class="catalog-guide" aria-labelledby="guide-title">
-        <p class="catalog-guide__label">Elige de un vistazo</p>
-        <h2 id="guide-title">Cada recurso explica lo esencial.</h2>
-        <dl>
-          <div>
-            <dt>Materia</dt>
-            <dd>Qué se practica</dd>
-          </div>
-          <div>
-            <dt>Nivel</dt>
-            <dd>Para quién está pensado</dd>
-          </div>
-          <div>
-            <dt>Duración</dt>
-            <dd>Cuánto tiempo reservar</dd>
-          </div>
-        </dl>
-      </aside>
-    </section>
+    <header class="intro page-shell">
+      <h1>Aprender con calma, paso a paso.</h1>
+      <p class="intro__lede">Actividades breves para practicar en familia, de 7 a 11 años.</p>
+    </header>
 
     <section class="resources-section page-shell" id="recursos" aria-labelledby="resources-title">
       <div class="section-heading">
-        <p class="eyebrow">Catálogo</p>
         <h2 id="resources-title">Recursos disponibles</h2>
-        <p>Solo mostramos actividades terminadas y listas para usar.</p>
       </div>
 
-      <div class="catalog-layout">
-        <aside class="subject-panel" aria-labelledby="subjects-title">
-          <h3 id="subjects-title">Por materia</h3>
-          <nav aria-label="Explorar recursos por materia">
-            <a href="#ingles" aria-current="location">
-              <span>Inglés</span>
-              <span class="subject-count">1<span class="visually-hidden"> recurso</span></span>
+      <div class="resource-list">
+        <article class="resource-card" id="ingles" aria-labelledby="spelling-title">
+          <div class="resource-card__content">
+            <!-- Explicit list semantics help VoiceOver when CSS hides list markers. -->
+            <!-- [html-validate-disable-next no-redundant-role] -->
+            <ul class="resource-card__meta" role="list" aria-label="Materia, nivel y duración">
+              <li>Inglés</li>
+              <li>2.º Primaria</li>
+              <li>8–10 min</li>
+            </ul>
+            <h3 id="spelling-title"><span lang="en">Spelling</span>: listas semanales</h3>
+            <p id="spelling-description">Elige una lista por fecha y practica diez palabras con dibujos, pronunciación británica, escritura y repaso.</p>
+          </div>
+          <div class="resource-card__action">
+            <a class="button button--primary resource-link" href="/spelling/" aria-describedby="spelling-description">
+              <span>Practicar <span lang="en">spelling</span></span>
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
             </a>
-          </nav>
-          <p>El índice crecerá cuando haya nuevos recursos preparados.</p>
-        </aside>
-
-        <section class="resource-group" id="ingles" aria-labelledby="english-title">
-          <header class="resource-group__header">
-            <div>
-              <p class="resource-group__label">Materia</p>
-              <h3 id="english-title">Inglés</h3>
-            </div>
-            <p>1 recurso disponible</p>
-          </header>
-
-          <article class="resource-card" aria-labelledby="spelling-title">
-            <div class="resource-card__content">
-              <p class="resource-card__meta">Inglés <span aria-hidden="true">·</span> 2.º Primaria <span aria-hidden="true">·</span> 8–10 min</p>
-              <h4 id="spelling-title"><span lang="en">Spelling</span>: listas semanales</h4>
-              <p id="spelling-description">Elige una lista por fecha y practica sus diez palabras con dibujos, pronunciación británica, escritura y repaso. Cada lista conserva su propio progreso.</p>
-            </div>
-            <div class="resource-card__action">
-              <p>Actividad guiada</p>
-              <a class="button button--primary resource-link" href="/spelling/" aria-describedby="spelling-description">
-                Abrir recurso
-                <span aria-hidden="true">→</span>
-              </a>
-            </div>
-          </article>
-        </section>
+            <p class="resource-card__note">Cada lista conserva su propio progreso.</p>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="privacy-section page-shell" id="privacidad" aria-labelledby="privacy-title">
-      <div>
-        <p class="eyebrow">Privacidad</p>
-        <h2 id="privacy-title">La práctica se queda en casa.</h2>
-      </div>
+      <h2 id="privacy-title">La práctica se queda en casa.</h2>
       <div class="privacy-section__copy">
         <p class="privacy-promise">Sin cuentas, anuncios ni analítica. El progreso se guarda únicamente en este dispositivo.</p>
         <p>Los recursos no piden nombres ni envían respuestas. Cada familia puede aprender a su ritmo, sin perfiles ni seguimiento externo.</p>
@@ -132,7 +90,7 @@
   <footer class="site-footer">
     <div class="site-footer__inner page-shell">
       <p class="site-footer__brand">Boadilla School</p>
-      <p>Proyecto educativo independiente. No representa ni está afiliado a ningún centro escolar.</p>
+      <p>Proyecto educativo independiente y familiar. No es un centro escolar, ni representa ni está afiliado a ninguno.</p>
     </div>
   </footer>
 </body>
