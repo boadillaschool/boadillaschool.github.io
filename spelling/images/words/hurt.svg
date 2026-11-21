@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Un pie dolorido con una tirita</title>
+  <desc id="descripcion">Hacerse daño: un pie tiene una tirita y pequeñas líneas alrededor que indican dolor leve, sin sangre ni heridas abiertas.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="162" cy="176" rx="100" ry="9" fill="#CFE3EC" stroke="none"/>
+<path d="M128 26H191L185 111Q193 131 221 139Q245 143 246 156Q246 170 224 172H111Q91 171 91 154Q93 137 111 122L125 104Z" fill="#E5B18A"/>
+<path d="M126 26H193L190 66Q162 73 125 65Z" fill="#477DA6"/>
+<path d="M127 50H191" fill="none" stroke="#CFE3EC"/>
+<path d="M113 127Q124 138 120 155M215 142L212 154M227 147L224 158" fill="none" stroke-width="2"/>
+<g transform="translate(158 124) rotate(-20)">
+<rect x="-28" y="-13" width="56" height="26" rx="9" fill="#FBF7EE"/>
+<rect x="-10" y="-11" width="20" height="22" rx="3" fill="#F1D4A2" stroke="none"/>
+<circle cx="-20" cy="-4" r="1.5" fill="#B5864F" stroke="none"/>
+<circle cx="-20" cy="4" r="1.5" fill="#B5864F" stroke="none"/>
+<circle cx="20" cy="-4" r="1.5" fill="#B5864F" stroke="none"/>
+<circle cx="20" cy="4" r="1.5" fill="#B5864F" stroke="none"/>
+</g>
+<path d="M74 109L60 99M83 95L77 79M68 127L48 128" fill="none" stroke="#C8553D" stroke-width="4"/>
+  </g>
+</svg>

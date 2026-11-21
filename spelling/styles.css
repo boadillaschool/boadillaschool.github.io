@@ -989,6 +989,29 @@ body[data-view="home"] .card {
   color: var(--muted);
 }
 
+.phonetics {
+  max-inline-size: 100%;
+  min-inline-size: 0;
+  text-align: center;
+}
+
+.phonetics p {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+}
+
+.phonetics .btn {
+  max-inline-size: 100%;
+}
+
+.result-list li:has(.phonetics) {
+  flex-wrap: wrap;
+}
+
+.result-list .phonetics {
+  flex: 1 1 100%;
+}
+
 .spelling-panel {
   display: grid;
   justify-items: center;

@@ -79,6 +79,16 @@ const illustrations = new Map([
   ['chess', 'Ajedrez: un tablero de casillas claras y oscuras con un rey, una torre y un caballo.'],
   ['you', 'Tú: la persona que escucha, señalada por la mano de quien le habla.'],
   ['your', 'Tu (algo que te pertenece): tu mochila, que sostienes por el asa porque te pertenece.'],
+  ["fur", "Pelaje: un gato de pelo abundante tiene mechones suaves en las mejillas, el pecho y la cola."],
+  ["curly", "Rizado: una niña tiene rizos redondos y espirales alrededor de la cara, sin accesorios ni texto."],
+  ["purple", "Morado: un racimo de uvas de color morado cuelga de un tallo verde con una hoja."],
+  ["thursday", "Jueves: un calendario de siete columnas empieza en lunes. La cuarta columna, después del miércoles, está destacada con un círculo y una flecha."],
+  ["hurt", "Hacerse daño: un pie tiene una tirita y pequeñas líneas alrededor que indican dolor leve, sin sangre ni heridas abiertas."],
+  ["turn", "Girar: una carretera dobla hacia la izquierda en una esquina. Una flecha grande sigue el giro y señala la dirección."],
+  ["church", "Iglesia: un edificio con tejado inclinado, puerta arqueada y una torre alta con campana y una cruz pequeña."],
+  ["nurse", "Enfermera: una profesional con uniforme verde y estetoscopio sostiene una hoja con un corazón, preparada para cuidar a las personas."],
+  ["only", "Solo, únicamente: hay una única manzana roja sobre un plato grande; no hay ninguna otra fruta."],
+  ["old", "Viejo: un árbol de muchos años tiene un tronco ancho y rugoso, raíces grandes y una copa verde frondosa."],
 ].map(([id, alt]) => [id, Object.freeze({ src: `./images/words/${id}.svg`, alt })]));
 
 export function getWordIllustration(id) {

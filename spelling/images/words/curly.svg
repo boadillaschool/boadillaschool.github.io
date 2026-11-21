@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Cabello rizado</title>
+  <desc id="descripcion">Rizado: una niña tiene rizos redondos y espirales alrededor de la cara, sin accesorios ni texto.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M106 182Q109 137 160 136Q211 137 214 182Z" fill="#146B63"/>
+<path d="M144 130V151Q160 165 176 151V130" fill="#BE805C"/>
+<path d="M99 109Q78 105 87 84Q72 65 93 55Q89 33 112 34Q122 15 142 26Q159 12 176 25Q198 14 211 33Q235 30 233 52Q254 65 240 83Q249 103 227 114L222 132L98 130Z" fill="#594235"/>
+<ellipse cx="160" cy="97" rx="49" ry="47" fill="#E5B18A"/>
+<path d="M105 77Q102 54 125 52Q143 49 140 65Q136 76 128 69Q124 63 132 61M139 49Q145 29 164 35Q180 42 169 55Q160 65 153 55Q151 47 161 47M177 48Q193 29 209 45Q219 60 204 69Q191 75 189 63Q190 54 198 58M107 86Q87 78 88 98Q87 115 102 110Q114 103 104 97M214 83Q233 80 234 98Q234 116 220 113Q207 108 215 98" fill="none" stroke="#BE805C" stroke-width="5"/>
+<path d="M133 96Q139 92 144 96M177 96Q183 92 188 96M150 117Q160 125 171 116" fill="none"/>
+<path d="M158 99L153 110L160 111" fill="none" stroke-width="2"/>
+<path d="M126 161L122 182M194 161L198 182" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Una iglesia con torre alta</title>
+  <desc id="descripcion">Iglesia: un edificio con tejado inclinado, puerta arqueada y una torre alta con campana y una cruz pequeña.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M36 181H284" fill="none" stroke="#7CAD96" stroke-width="6"/>
+<path d="M133 101H256V178H133Z" fill="#F1D4A2"/>
+<path d="M119 103L196 60L272 103Z" fill="#C8553D"/>
+<path d="M65 55H139V178H65Z" fill="#FBF7EE"/>
+<path d="M57 57L102 23L147 57Z" fill="#477DA6"/>
+<path d="M102 12V32M94 20H110" fill="none" stroke-width="4"/>
+<path d="M84 96V80Q102 58 120 80V96Z" fill="#CFE3EC"/>
+<path d="M93 90Q94 83 95 79Q102 72 109 79Q110 84 111 90ZM102 91V94" fill="#F2C14E"/>
+<path d="M86 178V144Q102 123 118 144V178Z" fill="#594235"/>
+<circle cx="109" cy="156" r="2" fill="#F2C14E" stroke="none"/>
+<path d="M170 140V119Q182 104 194 119V140ZM219 140V119Q231 104 243 119V140Z" fill="#CFE3EC"/>
+<path d="M182 114V139M171 127H193M231 114V139M220 127H242M65 115H139" fill="none" stroke-width="2"/>
+  </g>
+</svg>

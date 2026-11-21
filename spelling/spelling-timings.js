@@ -9,6 +9,16 @@ const EMPTY_CUES = Object.freeze({
 });
 
 const CUES = Object.freeze({
+  "fur": Object.freeze({ letters: Object.freeze([0.0, 0.9970416666666667, 1.9825416666666666]), lastLetterEndAt: 2.456916666666667, pauseBeforeWord: 1.25, wordAt: 3.706916666666667 }),
+  "curly": Object.freeze({ letters: Object.freeze([0.0, 1.0692916666666668, 2.0547916666666666, 3.0791666666666666, 4.026583333333333]), lastLetterEndAt: 4.539041666666667, pauseBeforeWord: 1.25, wordAt: 5.789041666666667 }),
+  "purple": Object.freeze({ letters: Object.freeze([0.0, 0.9737083333333333, 1.9592083333333334, 2.9835833333333333, 3.957291666666667, 4.904708333333334]), lastLetterEndAt: 5.3125, pauseBeforeWord: 1.25, wordAt: 6.5625 }),
+  "thursday": Object.freeze({ letters: Object.freeze([0.0, 0.9815, 2.01975, 3.00525, 4.029625, 5.04, 6.024958333333333, 6.993041666666667]), lastLetterEndAt: 7.5055, pauseBeforeWord: 1.25, wordAt: 8.7555 }),
+  "hurt": Object.freeze({ letters: Object.freeze([0.0, 1.03825, 2.02375, 3.048125]), lastLetterEndAt: 3.479625, pauseBeforeWord: 1.25, wordAt: 4.729625 }),
+  "turn": Object.freeze({ letters: Object.freeze([0.0, 0.9815, 1.967, 2.991375]), lastLetterEndAt: 3.389625, pauseBeforeWord: 1.25, wordAt: 4.639625 }),
+  "church": Object.freeze({ letters: Object.freeze([0.0, 1.0692916666666668, 2.1075416666666666, 3.0930416666666667, 4.117416666666666, 5.186708333333334]), lastLetterEndAt: 5.6749583333333335, pauseBeforeWord: 1.25, wordAt: 6.9249583333333335 }),
+  "nurse": Object.freeze({ letters: Object.freeze([0.0, 0.94825, 1.93375, 2.958125, 3.9685]), lastLetterEndAt: 4.376291666666667, pauseBeforeWord: 1.25, wordAt: 5.626291666666667 }),
+  "only": Object.freeze({ letters: Object.freeze([0.0, 1.0017083333333334, 1.9499583333333332, 2.897375]), lastLetterEndAt: 3.4098333333333333, pauseBeforeWord: 1.25, wordAt: 4.659833333333333 }),
+  "old": Object.freeze({ letters: Object.freeze([0.0, 1.0017083333333334, 1.949125]), lastLetterEndAt: 2.3840833333333333, pauseBeforeWord: 1.25, wordAt: 3.6340833333333333 }),
   "rat": Object.freeze({ letters: Object.freeze([0.0, 1.024375, 1.9924583333333334]), lastLetterEndAt: 2.423958333333333, pauseBeforeWord: 1.25, wordAt: 3.673958333333333 }),
   "gate": Object.freeze({ letters: Object.freeze([0.0, 1.0012916666666667, 1.969375, 2.950875]), lastLetterEndAt: 3.3586666666666667, pauseBeforeWord: 1.25, wordAt: 4.608666666666666 }),
   "bed": Object.freeze({ letters: Object.freeze([0.0, 0.9713333333333334, 1.929125]), lastLetterEndAt: 2.3640833333333333, pauseBeforeWord: 1.25, wordAt: 3.6140833333333333 }),

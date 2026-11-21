@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Una enfermera que cuida</title>
+  <desc id="descripcion">Enfermera: una profesional con uniforme verde y estetoscopio sostiene una hoja con un corazón, preparada para cuidar a las personas.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M115 78Q92 57 108 32Q124 13 152 29Q180 12 196 39Q205 61 189 80Z" fill="#594235"/>
+<path d="M137 89V108L164 123L184 108V88" fill="#BE805C"/>
+<path d="M112 108L138 101L160 119L183 101L209 111L224 181H95Z" fill="#146B63"/>
+<path d="M115 127L99 162L75 152" fill="none" stroke="#BE805C" stroke-width="15"/>
+<ellipse cx="159" cy="64" rx="36" ry="39" fill="#BE805C"/>
+<path d="M123 53Q137 54 148 38Q170 53 195 50Q195 22 162 24Q125 15 123 53Z" fill="#594235"/>
+<circle cx="145" cy="67" r="2.5" fill="#17324D" stroke="none"/>
+<circle cx="175" cy="67" r="2.5" fill="#17324D" stroke="none"/>
+<path d="M149 83Q160 92 171 83M159 68L155 77H160" fill="none" stroke-width="2"/>
+<path d="M132 110V128Q132 145 146 145Q160 145 160 128V119M146 145V159Q149 169 161 160" fill="none" stroke="#CFE3EC" stroke-width="4"/>
+<circle cx="166" cy="155" r="7" fill="#CFE3EC"/>
+<rect x="194" y="130" width="57" height="53" rx="5" fill="#FBF7EE"/>
+<rect x="211" y="125" width="22" height="9" rx="3" fill="#477DA6"/>
+<path d="M207 148Q213 140 222 149Q231 140 237 148Q243 158 222 170Q201 158 207 148Z" fill="#C8553D"/>
+<path d="M204 116L218 137" fill="none" stroke="#BE805C" stroke-width="13"/>
+  </g>
+</svg>

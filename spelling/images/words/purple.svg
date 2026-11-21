@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Uvas de color morado</title>
+  <desc id="descripcion">Morado: un racimo de uvas de color morado cuelga de un tallo verde con una hoja.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M160 61Q157 28 180 21" fill="none" stroke="#594235" stroke-width="6"/>
+<path d="M163 48Q182 15 221 33Q209 66 163 56Z" fill="#7CAD96"/>
+<path d="M170 50L209 36" fill="none" stroke="#146B63"/>
+<circle cx="126" cy="76" r="24" fill="#8E68AD"/>
+<circle cx="169" cy="75" r="24" fill="#8E68AD"/>
+<circle cx="209" cy="81" r="23" fill="#8E68AD"/>
+<circle cx="105" cy="112" r="23" fill="#8E68AD"/>
+<circle cx="148" cy="113" r="25" fill="#8E68AD"/>
+<circle cx="192" cy="116" r="24" fill="#8E68AD"/>
+<circle cx="127" cy="149" r="23" fill="#8E68AD"/>
+<circle cx="171" cy="151" r="24" fill="#8E68AD"/>
+<circle cx="151" cy="177" r="18" fill="#8E68AD"/>
+<path d="M115 66L120 62M158 65L163 61M198 72L203 68M96 104L101 100M138 103L143 99M182 106L187 102M118 141L123 137M161 142L166 138M143 170L147 168" fill="none" stroke="#D8C8E8" stroke-width="4"/>
+  </g>
+</svg>

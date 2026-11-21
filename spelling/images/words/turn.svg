@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Girar a la izquierda</title>
+  <desc id="descripcion">Girar: una carretera dobla hacia la izquierda en una esquina. Una flecha grande sigue el giro y señala la dirección.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M60 42H199Q256 42 256 99V181H172V123H60Z" fill="#D8D1C4"/>
+<path d="M61 82H193Q215 82 215 106V180" fill="none" stroke="#FBF7EE" stroke-width="4" stroke-dasharray="10 10"/>
+<path d="M199 159V111Q199 100 187 100H112V119L77 84L112 49V68H189Q232 68 232 111V159Z" fill="#146B63"/>
+<path d="M37 151Q52 128 68 152Q55 164 37 151Z" fill="#7CAD96"/>
+<path d="M43 173Q58 152 76 174Z" fill="#7CAD96"/>
+  </g>
+</svg>

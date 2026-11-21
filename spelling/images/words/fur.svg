@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Pelaje suave de un gato</title>
+  <desc id="descripcion">Pelaje: un gato de pelo abundante tiene mechones suaves en las mejillas, el pecho y la cola.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="160" cy="180" rx="100" ry="9" fill="#CFE3EC" stroke="none"/>
+<path d="M213 143Q278 148 269 94Q261 65 245 82Q234 91 250 108Q253 130 218 122" fill="#BE805C"/>
+<path d="M112 105Q85 129 100 166L91 175L119 173L134 180L151 172L169 181L187 173L210 178L206 162Q227 125 204 102Z" fill="#E5B18A"/>
+<path d="M103 90L93 40L125 57Q157 43 187 58L218 40L209 91L219 105L203 112L209 123L191 125Q158 145 125 124L109 127L114 113L99 109Z" fill="#BE805C"/>
+<path d="M101 54L110 78L122 64M205 54L194 64L203 78" fill="#E5B18A"/>
+<path d="M125 94Q131 89 137 94M174 94Q180 89 186 94" fill="none"/>
+<path d="M148 104L158 111L168 104Z" fill="#594235"/>
+<path d="M158 111Q149 123 141 116M158 111Q166 123 175 116M109 104L85 99M110 111L86 114M203 104L227 98M202 112L229 115" fill="none"/>
+<path d="M130 135L135 150L144 140L154 157L164 143L175 152L182 134M112 145L117 155M191 146L186 157M243 134L249 126" fill="none" stroke="#594235"/>
+  </g>
+</svg>

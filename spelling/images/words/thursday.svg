@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Jueves en el calendario semanal</title>
+  <desc id="descripcion">Jueves: un calendario de siete columnas empieza en lunes. La cuarta columna, después del miércoles, está destacada con un círculo y una flecha.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="27" y="39" width="266" height="139" rx="12" fill="#FBF7EE"/>
+<path d="M27 67V51Q27 39 39 39H281Q293 39 293 51V67Z" fill="#146B63"/>
+<path d="M80 26V49M240 26V49" fill="none" stroke-width="7"/>
+<path d="M65 68V177M103 68V177M141 68V177M179 68V177M217 68V177M255 68V177M28 106H292M28 142H292" fill="none" stroke="#CFE3EC" stroke-width="2"/>
+<rect x="145" y="72" width="30" height="99" rx="9" fill="#F2C14E" stroke="none"/>
+<circle cx="46" cy="87" r="6" fill="#7CAD96"/>
+<circle cx="84" cy="87" r="6" fill="#7CAD96"/>
+<circle cx="122" cy="87" r="6" fill="#7CAD96"/>
+<circle cx="160" cy="87" r="12" fill="#FBF7EE"/>
+<circle cx="198" cy="87" r="6" fill="#CFE3EC"/>
+<circle cx="236" cy="87" r="6" fill="#CFE3EC"/>
+<circle cx="274" cy="87" r="6" fill="#CFE3EC"/>
+<path d="M113 122H158M151 115L158 122L151 129" fill="none" stroke="#146B63" stroke-width="4"/>
+<circle cx="160" cy="156" r="5" fill="#146B63" stroke="none"/>
+  </g>
+</svg>

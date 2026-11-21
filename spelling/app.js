@@ -309,7 +309,9 @@ function handleAudioStatus(status) {
   }
 
   const mockFailed = status === 'error' && registerMockAudioFailure();
-  const note = status === 'error' ? (mockFailed ? MESSAGES.audioErrorMock : MESSAGES.audioError) : persistentAudioNote;
+  const note = status === 'phonics-unavailable'
+    ? 'El sonido no está disponible ahora. Puedes seguir mirando la fonética.'
+    : status === 'error' ? (mockFailed ? MESSAGES.audioErrorMock : MESSAGES.audioError) : persistentAudioNote;
   dom.audioNote.hidden = note === '';
   dom.audioNote.textContent = note;
 
@@ -368,10 +370,22 @@ function playSpelling(item, slow = false) {
   return started;
 }
 
+// This block is only mounted beside an already revealed answer, never a prompt.
+function phoneticsPanel(item) {
+  if (!item.ipa) return null;
+  return el('div', { class: 'phonetics' },
+    el('p', { class: 'muted', text: `Fonética /${item.ipa}/` }),
+    item.phonicsSound && item.phonicsLabel
+      ? button(item.phonicsLabel, () => speaker.playPhonics(item.phonicsSound), { kind: 'secondary' })
+      : null,
+  );
+}
+
 function spellingPanel(item) {
   return el(
     'section',
     { class: 'spelling-panel', 'data-spelling': item.id, 'aria-label': `Deletreo de ${item.word}` },
+    phoneticsPanel(item),
     el('p', { class: 'spelling-kicker', text: 'Escucha el deletreo' }),
     el(
       'div',
@@ -720,6 +734,11 @@ function familiesPanel() {
       { class: 'families-body' },
       el('p', { text: 'El progreso se guarda solo en este dispositivo. No se guardan nombres ni respuestas escritas, y no hay cuentas, anuncios ni análisis.' }),
       el('p', { text: 'Al terminar, «Compartir resultado» envía solo la puntuación, las palabras a repasar y la dirección de la app.' }),
+      ...(WORDS.some(item => item.phonicsSound) ? [el('p', {},
+        'Fonética: dos muestras breves de ',
+        el('a', { href: 'https://www.youtube.com/watch?v=-ksblMiliA8', target: '_blank', rel: 'noopener noreferrer',
+          text: 'Jolly Learning: Jolly Phonics Letter Sounds (British English)' }),
+        '. Fuente externa para familias; este proyecto es independiente.') ] : []),
       resetPanel(),
     ),
   );
@@ -1019,7 +1038,7 @@ function renderLearn() {
       ),
       [button('Mostrar la palabra', () => {
         learn.machine = advanceLearn(learn.machine, { type: 'reveal' });
-        if (item.pattern === '') {
+        if (!item.pattern) {
           learn.machine = advanceLearn(learn.machine, { type: 'family', correct: true });
         }
         announce('');
@@ -1030,7 +1049,7 @@ function renderLearn() {
   }
 
   if (phase === 'reveal') {
-    const family = item.pattern === '' ? el('p', { class: 'family', text: 'Palabra especial: fíjate en todas sus letras.' }) : el(
+    const family = !item.pattern ? el('p', { class: 'family', text: 'Palabra especial: fíjate en todas sus letras.' }) : el(
       'div',
       { class: 'family', role: 'group', 'aria-labelledby': 'family-q' },
       el('p', { id: 'family-q', text: familyKnown ? `Familia: ${item.pattern}` : '¿Qué letras están resaltadas?' }),
@@ -1066,6 +1085,7 @@ function renderLearn() {
       ),
       [
         button('Ocultar y escribir', () => {
+          speaker.cancel();
           learn.machine = advanceLearn(learn.machine, { type: 'hide' });
           announce('');
           render();
@@ -1574,6 +1594,7 @@ function renderPractice() {
         feedbackSlot(),
       ),
       [button('Ocultar y escribir', () => {
+        speaker.cancel();
         practice.machine = advancePractice(practice.machine, { type: 'hide' });
         announce('Ahora escríbela sin mirar.', 'info');
         render();
@@ -1853,6 +1874,7 @@ function renderResults() {
                   ),
                 ),
                 el('span', { class: 'muted', lang: 'es', text: item.cue }),
+                phoneticsPanel(item),
                 button('Deletrear', () => playSpelling(item), {
                   kind: 'secondary',
                   'aria-label': `Deletrear ${item.word}`,

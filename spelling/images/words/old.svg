@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Un árbol viejo de tronco ancho</title>
+  <desc id="descripcion">Viejo: un árbol de muchos años tiene un tronco ancho y rugoso, raíces grandes y una copa verde frondosa.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 181Q156 173 288 181" fill="none" stroke="#7CAD96" stroke-width="5"/>
+<path d="M134 75L124 143Q122 162 104 175L89 181H141L158 169L175 181H223L203 168Q186 150 186 127L187 76Z" fill="#B5864F"/>
+<path d="M137 106L104 77L111 65L150 85M180 104L215 79L211 66L171 84" fill="#B5864F"/>
+<path d="M60 91Q30 82 45 59Q40 33 71 32Q83 8 108 23Q133 3 157 20Q185 6 205 22Q234 9 248 35Q278 33 277 57Q300 78 276 95Q257 112 234 98Q208 115 186 99Q158 117 137 100Q105 113 88 98Q71 108 60 91Z" fill="#7CAD96"/>
+<path d="M65 63Q74 46 92 54M119 43Q133 33 144 43M181 47Q194 34 209 46M236 66Q254 55 265 72" fill="none" stroke="#146B63"/>
+<path d="M138 113L133 151L122 164M178 117L181 151L193 166M151 145L147 166" fill="none" stroke="#594235"/>
+<ellipse cx="160" cy="126" rx="11" ry="16" fill="#594235"/>
+<ellipse cx="160" cy="126" rx="4" ry="8" fill="#BE805C" stroke="none"/>
+  </g>
+</svg>

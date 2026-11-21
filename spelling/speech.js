@@ -194,9 +194,48 @@ export function createSpeaker({ synth, Utterance, AudioCtor, onStatus = () => {}
     }
   }
 
+  // School phonemes are recordings, never letter names or synthesized substitutes.
+  // They use the same current owner as pronunciation/spelling, including cancel().
+  function playPhonics(sound) {
+    const clip = new Map([
+      ['er', 'audio/phonics/er.mp3'],
+      ['oa', 'audio/phonics/oa.mp3'],
+    ]).get(sound);
+    if (!clip) return false;
+    cancel();
+    try {
+      if (!mediaSupported) throw new Error('Phonics recording unavailable');
+      onStatus('ready');
+      const audio = new AudioCtor(clip);
+      audio.playbackRate = 1;
+      current = audio;
+      audio.onended = () => {
+        if (current === audio) {
+          current = null;
+          onStatus('idle');
+        }
+      };
+      const unavailable = () => {
+        if (current === audio) {
+          cancel();
+          onStatus('phonics-unavailable');
+        }
+      };
+      audio.onerror = unavailable;
+      audio.play()?.catch(unavailable);
+      if (current === audio) onStatus('speaking');
+      return true;
+    } catch {
+      cancel();
+      onStatus('phonics-unavailable');
+      return false;
+    }
+  }
+
   return {
     supported,
     speak,
+    playPhonics,
     cancel,
     getVoice: () => voice,
   };

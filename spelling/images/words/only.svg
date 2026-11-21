@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Solo una manzana</title>
+  <desc id="descripcion">Solo, únicamente: hay una única manzana roja sobre un plato grande; no hay ninguna otra fruta.</desc>
+  <g stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="160" cy="157" rx="117" ry="29" fill="#CFE3EC"/>
+<ellipse cx="160" cy="153" rx="91" ry="19" fill="#FBF7EE" stroke-width="1.8"/>
+<g id="manzana">
+<path d="M160 70Q130 51 114 74Q98 98 117 133Q133 159 160 145Q188 159 204 133Q223 96 205 74Q190 54 160 70Z" fill="#C8553D"/>
+<path d="M160 74Q157 51 171 37" fill="none" stroke="#594235" stroke-width="5"/>
+<path d="M164 57Q184 31 204 46Q195 67 164 60Z" fill="#7CAD96"/>
+<path d="M124 87Q117 101 123 113" fill="none" stroke="#FBF7EE" stroke-width="5"/>
+</g>
+  </g>
+</svg>

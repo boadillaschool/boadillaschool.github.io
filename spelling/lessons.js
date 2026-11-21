@@ -93,6 +93,19 @@ const IR_WORDS = Object.freeze([
   { id: 'one', word: 'one', pattern: '', cue: 'uno', sentence: 'I have one apple.' },
 ].map(Object.freeze));
 
+const UR_WORDS = Object.freeze([
+  { id: 'fur', word: 'fur', pattern: 'ur', cue: 'pelaje', sentence: 'The cat has soft fur.', ipa: 'fɜː', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'curly', word: 'curly', pattern: 'ur', cue: 'rizado', sentence: 'The girl has curly hair.', ipa: 'ˈkɜːli', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'purple', word: 'purple', pattern: 'ur', cue: 'morado', sentence: 'The grapes are purple.', ipa: 'ˈpɜːpəl', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'thursday', word: 'Thursday', pattern: 'ur', cue: 'jueves', sentence: 'Thursday comes after Wednesday.', ipa: 'ˈθɜːzdeɪ', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'hurt', word: 'hurt', pattern: 'ur', cue: 'hacerse daño', sentence: 'I hurt my foot.', ipa: 'hɜːt', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'turn', word: 'turn', pattern: 'ur', cue: 'girar', sentence: 'Turn left at the corner.', ipa: 'tɜːn', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'church', word: 'church', pattern: 'ur', cue: 'iglesia', sentence: 'The church has a tall tower.', ipa: 'tʃɜːtʃ', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'nurse', word: 'nurse', pattern: 'ur', cue: 'enfermera', sentence: 'The nurse helps people feel better.', ipa: 'nɜːs', phonicsSound: 'er', phonicsLabel: 'Sonido ur' },
+  { id: 'only', word: 'only', pattern: null, cue: 'solo, únicamente', sentence: 'There is only one apple.', ipa: 'ˈəʊnli', phonicsSound: 'oa', phonicsLabel: 'Sonido o' },
+  { id: 'old', word: 'old', pattern: null, cue: 'viejo', sentence: 'The old tree has a wide trunk.', ipa: 'əʊld', phonicsSound: 'oa', phonicsLabel: 'Sonido o' },
+].map(Object.freeze));
+
 export const LESSONS = Object.freeze([
   Object.freeze({
     id: '2026-09-25', date: 'Viernes 25 de septiembre de 2026', shortDate: '25/09/2026',
@@ -141,6 +154,12 @@ export const LESSONS = Object.freeze([
     title: 'Palabras con ir', patterns: Object.freeze(['ir']),
     intro: 'Fíjate en las letras ir de «bird» y «shirt». Escucha cada palabra y recuerda cómo se escribe. También practicamos «said» y «one», dos palabras especiales.',
     words: IR_WORDS, storageKey: 'spelling-ea-ee:list:2026-11-20:v1',
+  }),
+  Object.freeze({
+    id: '2026-11-21', date: 'Añadida el 21 de noviembre de 2026', shortDate: '21/11/2026',
+    title: 'Palabras con ur', patterns: Object.freeze(['ur']),
+    intro: 'Escucha el sonido /ɜː/ en las palabras con ur. También practicamos «only» y «old», dos palabras especiales con el sonido /əʊ/.',
+    words: UR_WORDS, storageKey: 'spelling-ea-ee:list:2026-11-21:v1',
   }),
 ]);
 
