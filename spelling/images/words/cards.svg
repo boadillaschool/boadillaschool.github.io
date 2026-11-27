@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Tres tarjetas para compartir</title>
+  <desc id="descripcion">Tarjetas: tres tarjetas de papel doblado, ligeramente abiertas, llevan dibujos de un sol, una flor y un corazón. No contienen letras, cifras ni nombres.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <g id="tarjeta-1" transform="rotate(-8 77 102)">
+      <path d="M38 53L102 46L119 145L49 153Z" fill="#D8D1C4"/>
+      <path d="M38 53L102 46L104 143L39 151Z" fill="#FBF7EE"/>
+      <path d="M43 59V144" fill="none" stroke="#D8D1C4" stroke-width="1.5"/>
+      <circle cx="72" cy="91" r="15" fill="#F2C14E"/>
+      <path d="M72 67V61M72 115V121M48 91H45M96 91H99M55 74L51 70M89 74L93 70M55 108L51 112M89 108L93 112" fill="none" stroke="#B5864F" stroke-width="2"/>
+    </g>
+    <g id="tarjeta-2" transform="rotate(9 241 103)">
+      <path d="M204 51L264 58L280 158L213 150Z" fill="#D8D1C4"/>
+      <path d="M204 51L264 58L266 154L202 147Z" fill="#FBF7EE"/>
+      <path d="M208 59L207 139" fill="none" stroke="#D8D1C4" stroke-width="1.5"/>
+      <path d="M236 108V135M236 123Q219 126 219 115Q230 112 236 123M236 128Q251 130 253 117Q242 114 236 128" fill="#7CAD96" stroke="#146B63" stroke-width="2"/>
+      <path d="M235 85Q225 72 219 83Q211 94 226 99Q213 109 225 115Q236 119 239 107Q246 120 254 109Q259 99 245 95Q258 86 248 79Q238 73 235 85Z" fill="#F2C14E"/>
+      <circle cx="236" cy="96" r="7" fill="#C8553D"/>
+    </g>
+    <g id="tarjeta-3">
+      <path d="M109 110L179 102L201 209L118 214Z" fill="#CFE3EC"/>
+      <path d="M109 110L179 102L181 207L109 215Z" fill="#FBF7EE"/>
+      <path d="M114 116V207" fill="none" stroke="#D8D1C4" stroke-width="1.5"/>
+      <path d="M146 151Q128 129 121 148Q117 163 146 182Q173 159 167 146Q158 130 146 151Z" fill="#C8553D"/>
+    </g>
+  </g>
+</svg>

@@ -106,6 +106,19 @@ const UR_WORDS = Object.freeze([
   { id: 'old', word: 'old', pattern: null, cue: 'viejo', sentence: 'The old tree has a wide trunk.', ipa: 'əʊld', phonicsSound: 'oa', phonicsLabel: 'Sonido o' },
 ].map(Object.freeze));
 
+const AR_WORDS = Object.freeze([
+  { id: 'party', word: 'Party', pattern: 'ar', cue: 'fiesta', sentence: 'The party has balloons and a cake.' },
+  { id: 'farmer', word: 'Farmer', pattern: 'ar', cue: 'granjero', sentence: 'The farmer grows carrots.' },
+  { id: 'park', word: 'Park', pattern: 'ar', cue: 'parque', sentence: 'We play in the park.' },
+  { id: 'start', word: 'Start', pattern: 'ar', cue: 'empezar', sentence: 'We start the race together.' },
+  { id: 'shark', word: 'Shark', pattern: 'ar', cue: 'tiburón', sentence: 'The shark swims in the sea.' },
+  { id: 'march', word: 'March', pattern: 'ar', cue: 'marzo', sentence: 'March comes after February.' },
+  { id: 'markers', word: 'Markers', pattern: 'ar', cue: 'rotuladores', sentence: 'I draw with colourful markers.' },
+  { id: 'cards', word: 'Cards', pattern: 'ar', cue: 'tarjetas', sentence: 'We make cards for our friends.' },
+  { id: 'father', word: 'Father', pattern: null, cue: 'padre', sentence: 'My father reads me a story.' },
+  { id: 'mother', word: 'Mother', pattern: null, cue: 'madre', sentence: 'My mother gives me a hug.' },
+].map(Object.freeze));
+
 export const LESSONS = Object.freeze([
   Object.freeze({
     id: '2026-09-25', date: 'Viernes 25 de septiembre de 2026', shortDate: '25/09/2026',
@@ -160,6 +173,12 @@ export const LESSONS = Object.freeze([
     title: 'Palabras con ur', patterns: Object.freeze(['ur']),
     intro: 'Escucha el sonido /ɜː/ en las palabras con ur. También practicamos «only» y «old», dos palabras especiales con el sonido /əʊ/.',
     words: UR_WORDS, storageKey: 'spelling-ea-ee:list:2026-11-21:v1',
+  }),
+  Object.freeze({
+    id: '2026-11-27', date: 'Añadida el 27 de noviembre de 2026', shortDate: '27/11/2026',
+    title: 'Palabras con ar', patterns: Object.freeze(['ar']),
+    intro: 'Fíjate en las letras ar de «Party» y «Park». Escucha cada palabra y recuerda cómo se escribe. También practicamos «Father» y «Mother», dos palabras especiales.',
+    words: AR_WORDS, storageKey: 'spelling-ea-ee:list:2026-11-27:v1',
   }),
 ]);
 

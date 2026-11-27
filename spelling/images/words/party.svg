@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Una fiesta tranquila</title>
+  <desc id="descripcion">Fiesta: una guirnalda de banderines y dos globos decoran una mesa con una tarta para compartir. No hay velas, edades ni nombres.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M59 29Q160 65 261 29" fill="none"/>
+    <path d="M73 34L98 41L81 60Z" fill="#7CAD96"/>
+    <path d="M113 45L139 49L123 69Z" fill="#F2C14E"/>
+    <path d="M158 50L184 48L174 71Z" fill="#6896B7"/>
+    <path d="M204 44L230 38L222 63Z" fill="#7CAD96"/>
+    <path d="M47 119Q62 149 47 180M273 121Q259 153 273 178" fill="none" stroke="#7CAD96" stroke-width="1.8"/>
+    <ellipse cx="46" cy="91" rx="21" ry="28" fill="#F2C14E"/>
+    <path d="M46 119L41 125H51Z" fill="#F2C14E"/>
+    <path d="M38 78Q33 84 34 91" fill="none" stroke="#FBF7EE"/>
+    <ellipse cx="274" cy="94" rx="21" ry="28" fill="#7CAD96"/>
+    <path d="M274 122L269 128H279Z" fill="#7CAD96"/>
+    <path d="M266 81Q261 87 262 94" fill="none" stroke="#FBF7EE"/>
+    <path d="M99 176V217H111V176M210 176V217H222V176" fill="#B5864F"/>
+    <rect x="84" y="165" width="152" height="14" rx="5" fill="#B5864F"/>
+    <path d="M107 164H213V193Q187 187 160 193Q133 187 107 193Z" fill="#146B63"/>
+    <path d="M119 164V182M201 164V182" fill="none" stroke="#7CAD96"/>
+    <ellipse cx="160" cy="161" rx="48" ry="7" fill="#CFE3EC"/>
+    <path d="M121 128Q160 120 199 128V153Q160 166 121 153Z" fill="#F1D4A2"/>
+    <path d="M122 143Q160 153 198 143" fill="none" stroke="#BE805C" stroke-width="4"/>
+    <path d="M121 127Q160 113 199 127V136Q188 144 181 135Q175 147 166 136Q157 147 149 136Q139 145 133 135Q126 140 121 135Z" fill="#FBF7EE"/>
+    <ellipse cx="160" cy="126" rx="39" ry="8" fill="#FBF7EE"/>
+    <circle cx="145" cy="122" r="5" fill="#C8553D"/>
+    <circle cx="175" cy="122" r="5" fill="#C8553D"/>
+    <path d="M145 117Q144 111 150 108M175 117Q176 112 182 110" fill="none" stroke="#146B63" stroke-width="1.8"/>
+  </g>
+</svg>

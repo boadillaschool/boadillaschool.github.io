@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Una madre abraza a su hija</title>
+  <desc id="descripcion">Madre: una madre se inclina hacia su hija y la rodea con ambos brazos. La niña apoya la cabeza junto a ella y le devuelve el abrazo; las dos tienen una expresión serena.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="163" cy="214" rx="96" ry="10" fill="#CFE3EC" stroke="none"/>
+    <path d="M105 174L93 208H116L139 179L157 205H178L162 168Z" fill="#526272"/>
+    <path d="M94 203H116V216H88Q82 211 94 203ZM157 200H177L183 209Q186 216 176 216H154Z" fill="#594235"/>
+    <path d="M91 80Q79 46 97 29Q119 9 146 29Q170 48 159 97L164 119L88 116Z" fill="#594235"/>
+    <path d="M98 106Q121 95 148 109Q161 130 166 175Q136 190 97 175L88 130Z" fill="#146B63"/>
+    <path d="M112 88V108Q123 117 135 108V87" fill="#BE805C"/>
+    <path d="M96 55Q108 34 133 39Q154 43 155 62L152 80Q145 100 126 100Q104 96 98 79Z" fill="#BE805C"/>
+    <path d="M94 66Q86 38 111 29Q134 20 150 40L157 65Q138 61 128 45Q116 63 94 66Z" fill="#594235"/>
+    <path d="M111 71Q116 77 122 73M136 74Q141 78 146 72M124 88Q132 93 139 87" fill="none" stroke-width="2"/>
+    <path d="M145 117Q164 114 180 124L209 146" fill="none" stroke="#BE805C" stroke-width="17"/>
+    <path d="M177 169L174 207H188L196 180L207 206H222L211 167Z" fill="#477DA6"/>
+    <path d="M174 202H188V215H167Q162 209 174 202ZM207 201H222L232 210Q234 216 224 216H205Z" fill="#FBF7EE"/>
+    <path d="M166 127Q187 116 207 133L219 176Q194 185 166 174L157 145Z" fill="#F2C14E"/>
+    <path d="M162 97Q160 78 179 73Q197 68 211 83L217 114L207 130H171Z" fill="#594235"/>
+    <path d="M166 91Q179 77 197 87Q213 98 204 115Q197 130 181 126Q163 122 161 107Z" fill="#BE805C"/>
+    <path d="M161 101Q155 83 170 75Q189 65 204 80L210 99Q195 98 184 86Q175 99 161 101Z" fill="#594235"/>
+    <path d="M166 105Q171 109 176 105M185 111Q190 115 195 111M174 118Q180 123 187 120" fill="none" stroke-width="1.8"/>
+    <path d="M167 136Q145 143 132 128L125 116" fill="none" stroke="#BE805C" stroke-width="10"/>
+    <path id="abrazo" d="M96 121Q91 152 121 166Q151 181 195 160Q202 157 201 150Q198 144 192 147Q155 165 132 153Q117 146 113 127Z" fill="#BE805C"/>
+    <path d="M187 151L191 157M180 154L184 160" fill="none" stroke="#594235" stroke-width="1.5"/>
+    <path d="M206 136Q221 148 211 160L202 164Q195 164 196 157L204 151L199 146" fill="#BE805C"/>
+  </g>
+</svg>

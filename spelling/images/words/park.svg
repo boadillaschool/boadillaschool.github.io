@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Un parque con árboles y juegos</title>
+  <desc id="descripcion">Parque: árboles de copa verde dan sombra a un banco. Un sendero recorre el césped y pasa junto a dos columpios vacíos.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 181Q55 148 113 157Q175 142 229 154Q277 155 297 185L291 210Q161 236 28 210Z" fill="#7CAD96" stroke="none"/>
+    <path d="M153 126Q127 150 148 171Q166 186 118 223H204Q235 186 178 167Q149 154 169 127Z" fill="#F1D4A2" stroke="#B5864F" stroke-width="1.8"/>
+    <path d="M52 78L48 160Q59 166 70 160L66 78Z" fill="#B5864F"/>
+    <path d="M59 128L40 105M60 114L78 94" fill="none" stroke="#594235"/>
+    <path d="M30 96Q12 78 28 61Q24 40 48 37Q58 19 78 32Q100 31 101 54Q118 68 99 86Q98 104 77 105Q53 117 30 96Z" fill="#146B63"/>
+    <path d="M32 74Q44 58 57 64M63 40Q80 39 85 53" fill="none" stroke="#7CAD96"/>
+    <path d="M258 71L253 144H271L267 72Z" fill="#B5864F"/>
+    <path d="M236 86Q218 68 233 50Q234 30 255 30Q273 18 289 38Q305 51 294 69Q301 86 280 94Q254 108 236 86Z" fill="#7CAD96"/>
+    <path d="M241 57Q253 47 267 55M268 37Q280 39 283 49" fill="none" stroke="#146B63"/>
+    <path d="M44 165V194M101 165V194" fill="none" stroke="#526272" stroke-width="5"/>
+    <rect x="37" y="141" width="75" height="12" rx="3" fill="#B5864F"/>
+    <rect x="37" y="157" width="75" height="10" rx="3" fill="#B5864F"/>
+    <path d="M40 174H108L114 181H34Z" fill="#F1D4A2"/>
+    <path d="M203 115L187 194M203 115L222 194M280 115L262 194M280 115L297 194M199 113H283" fill="none" stroke="#526272" stroke-width="5"/>
+    <path d="M218 116V166M237 116V166M253 116V166M272 116V166" fill="none" stroke="#B5864F" stroke-width="2"/>
+    <rect x="214" y="166" width="27" height="7" rx="2" fill="#F2C14E"/>
+    <rect x="249" y="166" width="27" height="7" rx="2" fill="#F2C14E"/>
+    <path d="M47 207L43 201M47 207L50 199M270 210L266 203M270 210L274 201" fill="none" stroke="#146B63"/>
+  </g>
+</svg>

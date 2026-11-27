@@ -89,6 +89,16 @@ const illustrations = new Map([
   ["nurse", "Enfermera: una profesional con uniforme verde y estetoscopio sostiene una hoja con un corazón, preparada para cuidar a las personas."],
   ["only", "Solo, únicamente: hay una única manzana roja sobre un plato grande; no hay ninguna otra fruta."],
   ["old", "Viejo: un árbol de muchos años tiene un tronco ancho y rugoso, raíces grandes y una copa verde frondosa."],
+  ['party', 'Fiesta: una guirnalda, dos globos y una tarta sobre una mesa preparada para celebrar.'],
+  ['farmer', 'Granjero: una persona con sombrero y peto cuida un huerto y sostiene zanahorias recién recogidas.'],
+  ['park', 'Parque: un sendero entre árboles y césped pasa junto a un banco y unos columpios.'],
+  ['start', 'Empezar: dos niños dan su primer paso desde la misma línea de salida de una carrera; una flecha indica hacia dónde van.'],
+  ['shark', 'Tiburón: un animal marino de cuerpo gris azulado, aleta dorsal y branquias nada tranquilamente con la boca cerrada.'],
+  ['march', 'Marzo: un calendario muestra el tercer mes del año, con un tres sobre la cuadrícula de días y la tercera de doce marcas destacada.'],
+  ['markers', 'Rotuladores: cuatro rotuladores de colores con cuerpos gruesos; dos tienen la punta de fieltro descubierta y sus tapones al lado.'],
+  ['cards', 'Tarjetas: tres tarjetas de papel doblado tienen dibujos de un sol, una flor y un corazón, sin palabras escritas.'],
+  ['father', 'Padre: un padre y su hijo están sentados juntos mirando el libro abierto que él les lee.'],
+  ['mother', 'Madre: una madre rodea con los brazos a su hija, que se acerca para abrazarla.'],
 ].map(([id, alt]) => [id, Object.freeze({ src: `./images/words/${id}.svg`, alt })]));
 
 export function getWordIllustration(id) {

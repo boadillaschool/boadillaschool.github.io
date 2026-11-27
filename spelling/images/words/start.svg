@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Empezar juntos una carrera</title>
+  <desc id="descripcion">Empezar: dos niños dan su primer paso al cruzar la misma línea de salida. Una flecha apunta hacia el espacio libre que tienen delante, sin premios ni cronómetros.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="28" y="105" width="266" height="114" rx="12" fill="#CFE3EC" stroke="#7CAD96"/>
+    <path d="M36 159H286" fill="none" stroke="#FBF7EE" stroke-width="4"/>
+    <path id="linea-salida" d="M118 106V218H128V106Z" fill="#FBF7EE" stroke-width="1.8"/>
+    <path d="M178 72H248V61L269 78L248 95V84H178Z" fill="#146B63"/>
+    <g id="corredor-1" transform="translate(30 15) scale(0.75)">
+      <path d="M99 121L113 135L139 137L139 146L108 144L94 130M95 123L91 139L77 148L72 140L80 130L82 120" fill="#E5B18A"/>
+      <path d="M133 135L143 136L152 142Q156 148 148 148H133ZM76 138L82 146L71 154Q62 158 60 150Z" fill="#FBF7EE"/>
+      <path d="M82 112H104L108 127L98 134L91 123L84 131L76 125Z" fill="#526272"/>
+      <path d="M87 89Q101 85 111 97L114 113L81 118L80 100Z" fill="#146B63"/>
+      <path d="M109 97L122 106L135 97M83 100L71 111L60 107" fill="none" stroke="#E5B18A" stroke-width="8"/>
+      <circle cx="101" cy="71" r="18" fill="#E5B18A"/>
+      <path d="M84 70Q78 54 96 51Q114 48 118 66Q107 67 100 58Q95 69 84 70Z" fill="#594235"/>
+      <path d="M106 72H107M110 81Q105 85 101 81" fill="none" stroke-width="2"/>
+    </g>
+    <g id="corredor-2" transform="translate(30 100) scale(0.75)">
+      <path d="M99 121L113 135L139 137L139 146L108 144L94 130M95 123L91 139L77 148L72 140L80 130L82 120" fill="#BE805C"/>
+      <path d="M133 135L143 136L152 142Q156 148 148 148H133ZM76 138L82 146L71 154Q62 158 60 150Z" fill="#FBF7EE"/>
+      <path d="M82 112H104L108 127L98 134L91 123L84 131L76 125Z" fill="#477DA6"/>
+      <path d="M87 89Q101 85 111 97L114 113L81 118L80 100Z" fill="#F2C14E"/>
+      <path d="M109 97L122 106L135 97M83 100L71 111L60 107" fill="none" stroke="#BE805C" stroke-width="8"/>
+      <circle cx="101" cy="71" r="18" fill="#BE805C"/>
+      <path d="M84 70Q78 56 88 52Q97 44 107 52Q122 51 120 68L111 65L104 58Q96 70 84 70Z" fill="#594235"/>
+      <path d="M106 72H107M110 81Q105 85 101 81" fill="none" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

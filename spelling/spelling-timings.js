@@ -9,6 +9,16 @@ const EMPTY_CUES = Object.freeze({
 });
 
 const CUES = Object.freeze({
+  "party": Object.freeze({ letters: Object.freeze([0.0, 0.9737083333333333, 1.9417916666666666, 2.9661666666666666, 3.9476666666666667]), lastLetterEndAt: 4.460125, pauseBeforeWord: 1.25, wordAt: 5.710125 }),
+  "farmer": Object.freeze({ letters: Object.freeze([0.0, 0.9970416666666667, 1.965125, 2.9895, 3.915958333333333, 4.87375]), lastLetterEndAt: 5.348125, pauseBeforeWord: 1.25, wordAt: 6.598125 }),
+  "park": Object.freeze({ letters: Object.freeze([0.0, 0.9737083333333333, 1.9417916666666666, 2.9661666666666666]), lastLetterEndAt: 3.4135, pauseBeforeWord: 1.25, wordAt: 4.6635 }),
+  "start": Object.freeze({ letters: Object.freeze([0.0, 1.010375, 1.991875, 2.9599583333333332, 3.9843333333333333]), lastLetterEndAt: 4.4158333333333335, pauseBeforeWord: 1.25, wordAt: 5.6658333333333335 }),
+  "shark": Object.freeze({ letters: Object.freeze([0.0, 1.010375, 2.048625, 3.0167083333333333, 4.041083333333333]), lastLetterEndAt: 4.488416666666667, pauseBeforeWord: 1.25, wordAt: 5.738416666666667 }),
+  "march": Object.freeze({ letters: Object.freeze([0.0, 0.9264583333333334, 1.8945416666666666, 2.9189166666666666, 3.988208333333333]), lastLetterEndAt: 4.476458333333333, pauseBeforeWord: 1.25, wordAt: 5.726458333333333 }),
+  "markers": Object.freeze({ letters: Object.freeze([0.0, 0.9264583333333334, 1.8945416666666666, 2.9189166666666666, 3.91625, 4.874041666666667, 5.898416666666667]), lastLetterEndAt: 6.358791666666667, pauseBeforeWord: 1.25, wordAt: 7.608791666666667 }),
+  "cards": Object.freeze({ letters: Object.freeze([0.0, 1.0692916666666668, 2.037375, 3.06175, 4.046708333333333]), lastLetterEndAt: 4.507083333333333, pauseBeforeWord: 1.25, wordAt: 5.757083333333333 }),
+  "father": Object.freeze({ letters: Object.freeze([0.0, 0.9970416666666667, 1.965125, 2.946625, 3.984875, 4.942666666666667]), lastLetterEndAt: 5.417041666666667, pauseBeforeWord: 1.25, wordAt: 6.667041666666667 }),
+  "mother": Object.freeze({ letters: Object.freeze([0.0, 0.9264583333333334, 1.9281666666666666, 2.909666666666667, 3.9479166666666665, 4.905708333333333]), lastLetterEndAt: 5.380083333333333, pauseBeforeWord: 1.25, wordAt: 6.630083333333333 }),
   "fur": Object.freeze({ letters: Object.freeze([0.0, 0.9970416666666667, 1.9825416666666666]), lastLetterEndAt: 2.456916666666667, pauseBeforeWord: 1.25, wordAt: 3.706916666666667 }),
   "curly": Object.freeze({ letters: Object.freeze([0.0, 1.0692916666666668, 2.0547916666666666, 3.0791666666666666, 4.026583333333333]), lastLetterEndAt: 4.539041666666667, pauseBeforeWord: 1.25, wordAt: 5.789041666666667 }),
   "purple": Object.freeze({ letters: Object.freeze([0.0, 0.9737083333333333, 1.9592083333333334, 2.9835833333333333, 3.957291666666667, 4.904708333333334]), lastLetterEndAt: 5.3125, pauseBeforeWord: 1.25, wordAt: 6.5625 }),

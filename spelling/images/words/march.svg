@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Marzo, el tercer mes del año</title>
+  <desc id="descripcion">Marzo: una hoja de calendario tiene un tres grande encima de una cuadrícula de días sin fechas. Debajo aparecen doce pequeñas marcas de meses; la tercera está rodeada y coloreada. No se indica ningún año ni día de la semana.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72 33H249V182Q249 190 241 190H72Z" fill="#D8D1C4"/>
+    <rect x="66" y="27" width="178" height="157" rx="9" fill="#FBF7EE"/>
+    <path d="M75 27H235Q244 27 244 36V84H66V36Q66 27 75 27Z" fill="#7CAD96"/>
+    <path d="M104 18V39M206 18V39" fill="none" stroke="#17324D" stroke-width="7"/>
+    <path d="M104 18V37M206 18V37" fill="none" stroke="#F1D4A2" stroke-width="3"/>
+    <path id="numero-tres" d="M145 47Q150 42 158 44Q169 46 168 54Q168 61 157 61Q170 60 170 69Q170 78 159 78Q150 79 145 73" fill="none" stroke="#17324D" stroke-width="5"/>
+    <rect x="82" y="100" width="146" height="66" rx="3" fill="#FBF7EE" stroke="#7CAD96" stroke-width="1.8"/>
+    <path d="M103 101V165M124 101V165M145 101V165M166 101V165M187 101V165M208 101V165M83 113H227M83 126H227M83 139H227M83 152H227" fill="none" stroke="#7CAD96" stroke-width="1.4"/>
+    <rect id="tercer-mes" x="77" y="196" width="19" height="28" rx="4" fill="#F2C14E"/>
+    <rect id="mes-1" x="38" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-2" x="59" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-3" x="80" y="201" width="13" height="17" rx="2" fill="#146B63" stroke-width="1.5"/>
+    <rect id="mes-4" x="101" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-5" x="122" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-6" x="143" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-7" x="164" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-8" x="185" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-9" x="206" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-10" x="227" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-11" x="248" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+    <rect id="mes-12" x="269" y="201" width="13" height="17" rx="2" fill="#FBF7EE" stroke="#526272" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Un padre lee con su hijo</title>
+  <desc id="descripcion">Padre: un padre sentado junto a su hijo sostiene un libro abierto. Los dos inclinan la mirada hacia las páginas mientras comparten la lectura. Son personajes ficticios sin nombres.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="57" y="102" width="204" height="95" rx="20" fill="#CFE3EC" stroke="#7CAD96"/>
+    <path d="M69 194V214M250 194V214" fill="none" stroke="#B5864F" stroke-width="7"/>
+    <path d="M94 166L90 213H109L119 182L135 211H154L140 163Z" fill="#526272"/>
+    <path d="M88 207H109V218H82Q80 212 88 207ZM135 206H154L160 215Q160 219 153 219H134Z" fill="#594235"/>
+    <path d="M93 107Q120 92 149 107L160 167Q123 179 89 167Z" fill="#146B63"/>
+    <path d="M112 87V106Q124 115 134 105V86" fill="#E5B18A"/>
+    <path d="M98 54Q102 33 124 33Q149 34 151 56L148 77Q143 96 123 98Q104 96 98 77Z" fill="#E5B18A"/>
+    <path d="M98 61Q88 44 103 32Q110 21 126 26Q147 25 153 42L151 62L142 49Q124 56 112 42Q107 54 98 61Z" fill="#594235"/>
+    <path d="M109 67Q114 71 119 68M133 68Q138 71 143 67M117 83Q125 88 133 82" fill="none" stroke-width="2"/>
+    <path d="M103 82Q105 97 123 99Q143 96 145 81Q139 87 133 86Q123 93 114 86Z" fill="#594235" stroke="none"/>
+    <path d="M89 118Q76 140 85 158L106 169L113 158L97 148L103 129M150 116Q167 126 179 119L190 111" fill="none" stroke="#E5B18A" stroke-width="13"/>
+    <path d="M189 178L189 208H201L208 187L219 207H231L224 174Z" fill="#477DA6"/>
+    <path d="M187 203H202V216H180Q176 210 187 203ZM220 203H232L240 211Q243 216 234 216H218Z" fill="#FBF7EE"/>
+    <path d="M184 133Q204 120 223 135L232 179Q208 188 181 178Z" fill="#F2C14E"/>
+    <circle cx="204" cy="108" r="24" fill="#E5B18A"/>
+    <path d="M181 110Q174 89 190 83Q205 74 220 86Q231 93 227 109L216 96Q202 103 193 92Q190 102 181 110Z" fill="#594235"/>
+    <path d="M191 111Q195 114 199 112M210 112Q214 115 218 111M199 122Q205 125 210 121" fill="none" stroke-width="1.8"/>
+    <path d="M225 139Q236 153 227 167L215 171" fill="none" stroke="#E5B18A" stroke-width="10"/>
+    <g id="libro-abierto">
+      <path d="M110 137Q143 135 170 150Q196 134 229 137L224 185Q196 183 170 196Q142 184 115 186Z" fill="#B5864F"/>
+      <path d="M116 132Q143 132 170 146V190Q142 178 121 179Z" fill="#FBF7EE"/>
+      <path d="M170 146Q194 132 223 132L218 179Q192 179 170 190Z" fill="#FBF7EE"/>
+      <path d="M129 147Q143 148 158 154M130 159Q144 160 158 166M183 154Q197 147 211 147M183 166Q198 159 210 159" fill="none" stroke="#7CAD96" stroke-width="2"/>
+    </g>
+    <path d="M115 160Q104 153 102 163Q100 170 113 174L118 170ZM221 160Q230 154 232 163Q234 170 222 173L217 169Z" fill="#E5B18A"/>
+  </g>
+</svg>

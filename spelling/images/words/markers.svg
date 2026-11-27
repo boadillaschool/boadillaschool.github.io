@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Cuatro rotuladores de colores</title>
+  <desc id="descripcion">Rotuladores: cuatro útiles de dibujo gruesos de colores verde, azul, rojo y amarillo. Dos muestran puntas cortas y redondeadas de fieltro, con sus tapones separados; los otros dos están tapados.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <g id="rotulador-1" transform="rotate(-6 68 125)">
+      <path d="M62 60V49Q68 39 74 49V60Z" fill="#146B63"/>
+      <path d="M59 79V61H77V79" fill="#7CAD96"/>
+      <rect x="55" y="78" width="26" height="117" rx="6" fill="#FBF7EE"/>
+      <path d="M55 89H81V105H55Z" fill="#146B63"/>
+      <path d="M55 179H81V189Q81 195 75 195H61Q55 195 55 189Z" fill="#146B63"/>
+      <path d="M62 115V167" fill="none" stroke="#D8D1C4" stroke-width="3"/>
+    </g>
+    <g id="rotulador-2" transform="rotate(-2 126 122)">
+      <rect x="113" y="66" width="26" height="129" rx="6" fill="#FBF7EE"/>
+      <path d="M113 178H139V189Q139 195 133 195H119Q113 195 113 189Z" fill="#477DA6"/>
+      <rect x="110" y="41" width="32" height="58" rx="6" fill="#477DA6"/>
+      <path d="M135 51V85" fill="none" stroke="#CFE3EC" stroke-width="4"/>
+      <path d="M113 90H139" fill="none" stroke="#CFE3EC"/>
+      <path d="M120 113V165" fill="none" stroke="#D8D1C4" stroke-width="3"/>
+    </g>
+    <g id="rotulador-3" transform="rotate(3 184 125)">
+      <path d="M178 60V49Q184 39 190 49V60Z" fill="#C8553D"/>
+      <path d="M175 79V61H193V79" fill="#F1D4A2"/>
+      <rect x="171" y="78" width="26" height="117" rx="6" fill="#FBF7EE"/>
+      <path d="M171 89H197V105H171Z" fill="#C8553D"/>
+      <path d="M171 179H197V189Q197 195 191 195H177Q171 195 171 189Z" fill="#C8553D"/>
+      <path d="M178 115V167" fill="none" stroke="#D8D1C4" stroke-width="3"/>
+    </g>
+    <g id="rotulador-4" transform="rotate(8 242 122)">
+      <rect x="229" y="66" width="26" height="129" rx="6" fill="#FBF7EE"/>
+      <path d="M229 178H255V189Q255 195 249 195H235Q229 195 229 189Z" fill="#F2C14E"/>
+      <rect x="226" y="41" width="32" height="58" rx="6" fill="#F2C14E"/>
+      <path d="M251 51V85" fill="none" stroke="#FBF7EE" stroke-width="4"/>
+      <path d="M229 90H255" fill="none" stroke="#FBF7EE"/>
+      <path d="M236 113V165" fill="none" stroke="#D8D1C4" stroke-width="3"/>
+    </g>
+    <g transform="rotate(-18 36 188)">
+      <rect x="23" y="162" width="26" height="53" rx="5" fill="#146B63"/>
+      <path d="M42 171V199M26 207H46" fill="none" stroke="#7CAD96" stroke-width="3"/>
+    </g>
+    <g transform="rotate(18 283 188)">
+      <rect x="270" y="162" width="26" height="53" rx="5" fill="#C8553D"/>
+      <path d="M289 171V199M273 207H293" fill="none" stroke="#F1D4A2" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

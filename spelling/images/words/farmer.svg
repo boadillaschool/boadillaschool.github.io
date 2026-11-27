@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Un granjero en su huerto</title>
+  <desc id="descripcion">Granjero: una persona con sombrero de paja, peto y botas está junto a las hileras de su huerto. Sostiene un manojo de zanahorias recién recogidas.</desc>
+  <g transform="translate(26.666667 0) scale(0.833333333)" stroke="#17324D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 216Q160 201 295 216" fill="none" stroke="#7CAD96"/>
+    <path d="M24 178Q56 166 87 178M27 198Q55 188 84 198" fill="none" stroke="#B5864F" stroke-width="5"/>
+    <path d="M43 179L38 171Q46 166 54 171L48 183Z" fill="#C8553D"/>
+    <path d="M46 170Q34 163 37 157Q46 158 46 170Q45 153 53 151Q57 162 46 170M65 196Q54 187 58 181Q65 183 65 196Q65 180 73 178Q77 189 65 196" fill="#7CAD96"/>
+    <path d="M110 169L105 209H122L130 178L138 209H156L150 168Z" fill="#477DA6"/>
+    <path d="M105 204H122V217H97Q94 210 105 204ZM139 204H155L164 212Q166 218 158 218H138Z" fill="#594235"/>
+    <path d="M105 112Q130 101 155 112L162 152L148 161H111L99 148Z" fill="#F1D4A2"/>
+    <path d="M112 110L118 136H143L148 109L155 112L150 139L153 178H107L111 139L105 113Z" fill="#146B63"/>
+    <path d="M118 145H142V161Q130 169 118 161Z" fill="#7CAD96"/>
+    <circle cx="117" cy="135" r="2" fill="#F2C14E"/>
+    <circle cx="144" cy="135" r="2" fill="#F2C14E"/>
+    <path d="M103 125Q94 134 91 151L85 172Q83 180 91 181Q98 181 99 174L107 151M154 125L169 141L191 132L197 140L169 153Q163 153 151 141" fill="#E5B18A"/>
+    <path d="M122 99V112Q131 119 139 111V98" fill="#E5B18A"/>
+    <path d="M104 73Q105 48 130 48Q155 49 156 73L153 87Q147 104 130 106Q112 103 106 87Z" fill="#E5B18A"/>
+    <path d="M104 73L107 55Q130 38 152 55L156 73L147 64Q126 72 114 62L111 77" fill="#594235"/>
+    <path d="M118 80H119M141 80H142M124 93Q131 98 138 92" fill="none"/>
+    <path d="M94 56Q131 46 166 57L172 64Q132 76 90 64Z" fill="#F2C14E"/>
+    <path d="M106 56L111 33Q132 25 150 34L157 56Q132 63 106 56Z" fill="#F1D4A2"/>
+    <path d="M108 48Q131 55 155 48" fill="none" stroke="#B5864F" stroke-width="5"/>
+    <path d="M201 118Q187 110 191 102Q201 103 204 117Q204 100 212 100Q217 110 208 120Q221 107 228 113Q227 124 208 126" fill="#7CAD96"/>
+    <path d="M197 119Q204 115 211 122L196 164Q190 169 191 161Z" fill="#C8553D"/>
+    <path d="M207 123Q214 119 220 125L212 169Q207 175 205 165Z" fill="#F2C14E"/>
+    <path d="M196 135L202 137M208 140L215 142M206 152L212 154" fill="none" stroke="#BE805C" stroke-width="1.8"/>
+    <path d="M187 130Q194 124 201 128L204 132Q207 140 198 142L193 140L188 143Z" fill="#E5B18A"/>
+    <path d="M238 182Q249 149 270 182" fill="none" stroke="#B5864F" stroke-width="5"/>
+    <path d="M229 184H280L273 215H237Z" fill="#F1D4A2"/>
+    <path d="M235 194H276M238 205H273M246 185L248 214M262 185L260 214" fill="none" stroke="#B5864F" stroke-width="1.8"/>
+  </g>
+</svg>
